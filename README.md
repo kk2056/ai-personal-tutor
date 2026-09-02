@@ -1,5 +1,7 @@
 # ai-personal-tutor
 
+> 制作人：黎木生AI
+
 把 AI 调教成你的私人家教 —— 一套六步提示词工作流。
 
 大部分人付费课，其实都能用 AI 免费系统学会。但只问"是什么、为什么"远远不够。这个 skill 提供从**目标确认 → 资料备课 → 试听考察 → 出题考试 → 保存进度 → 持续上课**的完整流程，每一步都带可直接套用的提示词模板。
@@ -26,11 +28,19 @@
 
 ## 用法
 
-在 WorkBuddy 中调用 `ai-personal-tutor` skill，或直接参考 `SKILL.md` 与 `references/prompt-templates.md`。完整可复制的提示词模板见 `references/prompt-templates.md`。
+在 WorkBuddy 中调用 `ai-personal-tutor` skill，或直接参考 `SKILL.md` 与 `references/prompt-templates.md`。完整可复制的提示词模板见 `references/prompt-templates.md`，演示案例见 `references/cases.md`。
 
 ## 适用边界
 
 好老师的情感互动、状态判断、人格影响，提示词替代不了。本 skill 是"一门知识一直想系统学却没开始 / 怕被卖课割韭菜"时的一个免费选择。
+
+## 案例
+
+- 零基础学《财务报表分析》：第4步独立检查暴露"没真懂"，回去补练
+- 自媒体人自己搭智能体：第3步防降智话术逼 AI 引导定义需求，而非直接甩代码
+- 运营学 Python 数据处理：第4步独立通过，证明只学会了够用的部分
+
+详见 `references/cases.md`。
 
 ## License
 
